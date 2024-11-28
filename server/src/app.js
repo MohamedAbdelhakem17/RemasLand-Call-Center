@@ -11,10 +11,9 @@ app.use(express.json());
 
 // Database Connect 
 DatabaseConnection()
+
 // amount Route 
 RoutesAmount(app)
-
-
 
 // Define a test route
 app.get("/", (req, res) => {
