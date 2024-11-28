@@ -16,7 +16,7 @@ const Menu = () => {
                 </div>
             </nav>
             <div className="flex items-start justify-between">
-                <div className="p-5 w-[950px]">
+                <div className="p-5 w-[1200px]">
                     <CategoryPar />
                     <Product />
                 </div>
