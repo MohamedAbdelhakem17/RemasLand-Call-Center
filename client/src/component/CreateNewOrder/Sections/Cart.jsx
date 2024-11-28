@@ -4,7 +4,7 @@ const Cart = () => {
     const { cart } = useProductContext()
     return (
         <div className=' w-[350px] mx-auto'>
-            <h2 className='text-3xl font-extrabold p-2 '>الاوردر</h2>
+            <h2 className='text-3xl font-bo'>الاوردر</h2>
             <div className="border border-slate-500 gap-6 p-5">
                 {
                     (cart.length > 0)
